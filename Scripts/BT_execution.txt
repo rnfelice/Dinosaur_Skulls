@@ -1,0 +1,61 @@
+#####
+#Execution code for running BayesTraits Variable rates models. 
+#output can be used to generate trees in figures 1 and S1-36 using the script "Plotting bayestraits results.R"
+
+
+#with FBD DATED TREES:
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_MR.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_MR_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_MR.txt  <BayesTraits_Script.txt
+
+#With Traditional topology:
+
+
+./BayesTraitsV3 ./Data/Trees/tree_T_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_T.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_T_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_T.txt  <BayesTraits_Script.txt
+
+
+
+
+#With Baron et al topology:
+
+
+
+./BayesTraitsV3 ./Data/Trees/tree_B_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_B.txt  <BayesTraits_Script.txt
+
+./BayesTraitsV3 ./Data/Trees/tree_B_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_B.txt  <BayesTraits_Script.txt
+
+
+
