@@ -1,6 +1,9 @@
 library(geomorph)
 library(hot.dots)
 
+
+####Code for analysing 9 module dataset and calculating rates and disparity 
+####Loading data####
 #Load slid and procrustes aligned coordinate data for 9 module data set
 eleven.module.coords <- read.csv("/Dinosaur_Skulls/Data/Coordinate_data/eleven_modules_GPA.csv",header= TRUE, row.names = 1)
 eleven.module.coords3d <- arrayspecs(eleven.module.coords, p = 1515, k = 3) 
@@ -16,7 +19,7 @@ eleven.module.tree <- name.check(traditional_tree, two.d.array(eleven.module.coo
 
 elevenmodule.tree <- drop.tip(fulltree,topandsides.nc1$tree_not_data)
 
-
+####Rates and Disparity####
 #calculate per module rates
 evoratesgeomorph<-compare.multi.evol.rates(A = eleven.module.coords3d , gp = module.id.eleven.1, phy = elevenmodules.tree, Subset = TRUE, iter = 9999) 
 evoratesgeomorph
@@ -46,7 +49,7 @@ squamosal.disp<-morphol.disparity(squamosal.points~1) #n=83
 jugal.disp<-morphol.disparity(jugal.points~1) #n=186
 lacrimal.disp<-morphol.disparity(lacrimal.points~1) #n=140
 
-
+#### Fig 3 ####
 #calculate per-landmark rates and variance (Fig 3)
 
 landmark_rates<-hot.dots::per_lm_rates(shape.data = eleven.module.coords3d, phy = elevenmodules.tree)
@@ -55,7 +58,7 @@ landmark_variance <- hot.dots::per_lm_variance(shape.data = eleven.module.coords
 
 
 
-#make figure 4:
+###Fig 4###
 
 #load in the mean shape from the procustes alignment:
 eleven_module_meanshape<-read.csv("/Data/Coordinate_data/eleven_module_meanshape.csv")

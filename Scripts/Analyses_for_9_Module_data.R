@@ -1,6 +1,8 @@
 library(geomorph)
 library(hot.dots)
 
+####Code for analysing 9 module dataset and calculating rates and disparity 
+####Loading data####
 #Load slid and procrustes aligned coordinate data for 9 module data set
 nine.module.coords <- read.csv("/Dinosaur_Skulls/Data/Coordinate_data/nine_modules_GPA.csv",header= TRUE, row.names = 1)
 nine.module.coords3d <- arrayspecs(nine.module.coords, p = 1189, k = 3) 
@@ -16,7 +18,7 @@ nine.module.tree <- name.check(traditional_tree, two.d.array(nine.module.coords3
 
 ninemodule.tree <- drop.tip(fulltree,topandsides.nc1$tree_not_data)
 
-
+####Rates and Disparity####
 #calculate per module rates
 evoratesgeomorph<-compare.multi.evol.rates(A = nine.module.coords3d , gp = module.id.nine.1, phy = ninemodules.tree, Subset = TRUE, iter = 9999) 
 evoratesgeomorph
@@ -47,7 +49,7 @@ jugal.disp<-morphol.disparity(jugal.points~1) #n=186
 lacrimal.disp<-morphol.disparity(lacrimal.points~1) #n=140
 
 
-#calculate per-landmark rates and variance (Fig 3)
+#### Fig 3 ####
 
 landmark_rates<-hot.dots::per_lm_rates(shape.data = nine.module.coords3d, phy = ninemodules.tree)
 landmark_variance <- hot.dots::per_lm_variance(shape.data = nine.module.coords3d)

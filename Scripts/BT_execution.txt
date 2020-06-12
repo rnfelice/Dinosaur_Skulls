@@ -1,40 +1,41 @@
 #####
-#Execution code for running BayesTraits Variable rates models. 
-#output can be used to generate trees in figures 1 and S1-36 using the script "Plotting bayestraits results.R"
+#Execution code for running BayesTraits Variable rates models with bi
+#output can be used to generate trees in figures 1 and S2-S36 using the script "Plotting bayestraits results.R"
 
+#### With birds and non-avian dinosaurs together
 
 #with FBD DATED TREES:
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_occipital.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_occipital_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_palate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_palate_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_pterygoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_pterygoid_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_quadrate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_quadrate_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_rostrum.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_rostrum_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_sphenoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_sphenoid_MR.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_MR_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_MR.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_MR_vault.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_vault_MR.txt  <BayesTraits_Script.txt
 
 #With Traditional topology:
 
 
-./BayesTraitsV3 ./Data/Trees/tree_T_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_occipital.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_occipital_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_palate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_palate_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_pterygoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_pterygoid_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_quadrate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_quadrate_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_rostrum.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_rostrum_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_sphenoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_sphenoid_T.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_T_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_T.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_T_vault.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_vault_T.txt  <BayesTraits_Script.txt
 
 
 
@@ -43,19 +44,93 @@
 
 
 
-./BayesTraitsV3 ./Data/Trees/tree_B_occipital.nex ./Data/PC_scores/Phylo_PC_SCORES_occipital_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_occipital.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_occipital_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_palate.nex ./Data/PC_scores/Phylo_PC_SCORES_palate_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_palate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_palate_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_pterygoid.nex ./Data/PC_scores/Phylo_PC_SCORES_pterygoid_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_pterygoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_pterygoid_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_quadrate.nex ./Data/PC_scores/Phylo_PC_SCORES_quadrate_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_quadrate.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_quadrate_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_rostrum.nex ./Data/PC_scores/Phylo_PC_SCORES_rostrum_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_rostrum.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_rostrum_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_sphenoid.nex ./Data/PC_scores/Phylo_PC_SCORES_sphenoid_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_sphenoid.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_sphenoid_B.txt  <BayesTraits_Script.txt
 
-./BayesTraitsV3 ./Data/Trees/tree_B_vault.nex ./Data/PC_scores/Phylo_PC_SCORES_vault_B.txt  <BayesTraits_Script.txt
+./BayesTraitsV3 ./Data/For_Figures_1_and_S2-S22/Trees/tree_B_vault.nex ./Data/For_Figures_1_and_S2-S22/PC_scores/Phylo_PC_SCORES_vault_B.txt  <BayesTraits_Script.txt
+
+
+
+#####non-avian dinosaurs only
+
+#With Baron et al topology:
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_complete_occ.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_complete_occ_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_frontal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_frontal_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_jawjoint.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_jawjoint_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_jugal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_jugal_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_lacrimal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_lacrimal_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_max.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_max_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_nasal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_nasal_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_parietal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_parietal_B.txt <BayesTraits_Script.cmd 
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_postorb.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_postorb_B.txt <BayesTraits_Script.cmd
+.
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_premax.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_premax_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_squamosal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_squamosal_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_pterygoid.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_pterygoid_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_premaxvent.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_premaxvent_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_maxvent.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_maxvent_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_palatine.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_palatine_B.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_B_sphenoid.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_sphenoid_B.txt <BayesTraits_Script.cmd
+
+#With Traditional topology:
+
+
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_complete_occ.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_complete_occ_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_frontal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_frontal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_jawjoint.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_jawjoint_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_jugal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_jugal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_lacrimal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_lacrimal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_max.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_max_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_nasal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_nasal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_parietal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_parietal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_postorb.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_postorb_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_premax.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_premax_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_squamosal.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_squamosal_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_pterygoid.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_pterygoid_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_premaxvent.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_premaxvent_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_maxvent.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_maxvent_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_palatine.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_palatine_T.txt <BayesTraits_Script.cmd
+
+./BayesTraitsV3 ./For_Figures_S23-S36/Trees/tree_T_sphenoid.nex ./For_Figures_S23-S36/PC_scores/Phylo_PC_SCORES_sphenoid_T.txt <BayesTraits_Script.cmd
 
 
 
