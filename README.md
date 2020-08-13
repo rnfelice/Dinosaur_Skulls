@@ -1,4 +1,4 @@
-# Dinosaur_Skulls
+# Decelerated dinosaur skull evolution with the origin of birds
 Code from: 
 
 Felice RN, Watanabe A, Cuff AR, Hanson M, Bhullar B-AS, Rayfield ER, et al. (2020) Decelerated dinosaur skull evolution with the origin of birds. PLoS Biol 18(8): e3000801. <https://doi.org/10.1371/journal.pbio.3000801> 
