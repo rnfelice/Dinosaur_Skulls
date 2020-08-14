@@ -1,0 +1,87 @@
+#NEXUS
+[R-package APE, Fri May 31 11:38:22 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 37;
+	TAXLABELS
+		Plateosaurus_engelhardti
+		Massospondylus
+		Diplodocus_carnegiei
+		Camarasaurus_lewisi
+		Stegosaurus_stenops
+		Pinacosaurus_grangeri
+		Pawpawsaurus_campbelli
+		Panoplosaurus_mirus
+		Stegoceras_validum
+		Prenocephale_prenes
+		Pachycephalosaurus_wyomingensis
+		Psittacosaurus_gobiensis
+		Protoceratops_andrewsi
+		Diabloceratops_eatoni
+		Chasmosaurus_belli
+		Triceratops_prorsus
+		Thescelosaurus_neglectus
+		Brachylophosaurus_canadensis
+		Edmontosaurus_regalis
+		Lambeosaurus_clavintialis
+		Lambeosaurus_lambei
+		Majungasaurus
+		Carnotaurus
+		Allosaurus
+		Gorgosaurus
+		Alioramus
+		Teratophoneus
+		Tyrannosaurus
+		Garudimimus
+		Struthiomimus
+		Ornithomimus
+		Incisivosaurus
+		Citipati
+		Erlikosaurus
+		Bambiraptor
+		Tsaagan
+		Hesperornis
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Plateosaurus_engelhardti,
+		2	Massospondylus,
+		3	Diplodocus_carnegiei,
+		4	Camarasaurus_lewisi,
+		5	Stegosaurus_stenops,
+		6	Pinacosaurus_grangeri,
+		7	Pawpawsaurus_campbelli,
+		8	Panoplosaurus_mirus,
+		9	Stegoceras_validum,
+		10	Prenocephale_prenes,
+		11	Pachycephalosaurus_wyomingensis,
+		12	Psittacosaurus_gobiensis,
+		13	Protoceratops_andrewsi,
+		14	Diabloceratops_eatoni,
+		15	Chasmosaurus_belli,
+		16	Triceratops_prorsus,
+		17	Thescelosaurus_neglectus,
+		18	Brachylophosaurus_canadensis,
+		19	Edmontosaurus_regalis,
+		20	Lambeosaurus_clavintialis,
+		21	Lambeosaurus_lambei,
+		22	Majungasaurus,
+		23	Carnotaurus,
+		24	Allosaurus,
+		25	Gorgosaurus,
+		26	Alioramus,
+		27	Teratophoneus,
+		28	Tyrannosaurus,
+		29	Garudimimus,
+		30	Struthiomimus,
+		31	Ornithomimus,
+		32	Incisivosaurus,
+		33	Citipati,
+		34	Erlikosaurus,
+		35	Bambiraptor,
+		36	Tsaagan,
+		37	Hesperornis
+	;
+	TREE * UNTITLED = [&R] ((1:32.205026,(2:43.121229,(3:15.803678,4:20.789098):67.775633):3):9,(((5:24.798826,(6:74.537825,(7:11.473464,8:40.77959):40.156077):16.137732):31.150096,(((9:7.505509,(10:12.564453,11:17.074603):2):86.348569,(12:16.493563,(13:22.132254,(14:8.885262,(15:10.137628,16:14.62047):5.791331):5.91622):41.964594):38.780796):1,(17:105.553214,((18:4,19:14.682172):6.962277,(20:1.353505,21:1):18.162356):80.563606):1.954973):25.358042):47.632626,((22:35.819921,23:20.528766):97.592599,(24:25.312918,((25:4.933362,(26:14.503147,(27:11.367367,28:16.993927):1):1):86.979594,((29:1,(30:1.767018,31:2):25.6983):72.008543,((32:3.44945,33:54.449869):39.870065,(34:74.831186,((35:3.212213,36:11.157899):79.991087,37:74.422223):5.406764):1):3):1):2):25.3638):47.353497):0.5);
+END;

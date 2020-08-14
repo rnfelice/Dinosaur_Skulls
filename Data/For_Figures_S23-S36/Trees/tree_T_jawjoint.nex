@@ -1,0 +1,57 @@
+#NEXUS
+[R-package APE, Fri May 31 11:35:28 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 22;
+	TAXLABELS
+		Stegosaurus_stenops
+		Pinacosaurus_grangeri
+		Pawpawsaurus_campbelli
+		Panoplosaurus_mirus
+		Stegoceras_validum
+		Prenocephale_prenes
+		Psittacosaurus_gobiensis
+		Protoceratops_andrewsi
+		Thescelosaurus_neglectus
+		Plateosaurus_engelhardti
+		Diplodocus_carnegiei
+		Camarasaurus_lewisi
+		Majungasaurus
+		Allosaurus
+		Tyrannosaurus
+		Garudimimus
+		Struthiomimus
+		Ornithomimus
+		Citipati
+		Erlikosaurus
+		Bambiraptor
+		Hesperornis
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Stegosaurus_stenops,
+		2	Pinacosaurus_grangeri,
+		3	Pawpawsaurus_campbelli,
+		4	Panoplosaurus_mirus,
+		5	Stegoceras_validum,
+		6	Prenocephale_prenes,
+		7	Psittacosaurus_gobiensis,
+		8	Protoceratops_andrewsi,
+		9	Thescelosaurus_neglectus,
+		10	Plateosaurus_engelhardti,
+		11	Diplodocus_carnegiei,
+		12	Camarasaurus_lewisi,
+		13	Majungasaurus,
+		14	Allosaurus,
+		15	Tyrannosaurus,
+		16	Garudimimus,
+		17	Struthiomimus,
+		18	Ornithomimus,
+		19	Citipati,
+		20	Erlikosaurus,
+		21	Bambiraptor,
+		22	Hesperornis
+	;
+	TREE * UNTITLED = [&R] (((1:24.798826,(2:74.537825,(3:11.473464,4:40.77959):40.156077):16.137732):31.150096,(((5:7.505509,6:14.564453):86.348569,(7:16.493563,8:64.096848):38.780796):1,9:107.508187):25.358042):47.632626,((10:32.205026,(11:15.803678,12:20.789098):70.775633):9,(13:133.41252,(14:25.312918,(15:105.973521,((16:1,(17:1.767018,18:2):25.6983):72.008543,(19:94.319934,(20:74.831186,(21:83.2033,22:74.422223):5.406764):1):3):1):2):25.3638):46.353497):1);
+END;
